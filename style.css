@@ -45,65 +45,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-header {
-    background-color: #DDB3AB; /* Soft Pink */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-}
-
-.intro-text {
-    max-width: 50%;
-}
-
-.intro-text h1 {
-    color: #2B2726; /* Dark Gray */
-    font-size: 2.5em;
-}
-
-.intro-text p {
-    color: #2B2726; /* Dark Gray */
-    font-size: 1.2em;
-}
-
-.hero-image {
-    max-width: 300px; /* Adjust image size */
-    height: auto;
-}
-
 main {
     padding: 20px;
 }
 
-section {
-    padding: 20px 0;
-}
-
-footer {
-    background-color: #010001; /* Black */
-    color: #F7EFE6; /* Light Cream */
-    text-align: center;
-    padding: 10px;
-}
-
-/* Additional styling with the color palette */
-h1, h2 {
-    color: #2B2726; /* Dark Gray */
-}
-
-a {
-    color: #DDB3AB; /* Soft Pink */
-}
-
-button {
-    background-color: #2B2726; /* Dark Gray */
-    color: #F7EFE6; /* Light Cream */
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0C0808; /* Deep Black */
-}
