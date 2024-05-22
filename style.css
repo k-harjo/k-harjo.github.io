@@ -54,7 +54,7 @@ header {
 }
 
 .hero-image {
-    max-width: 400px; /* Adjust image size */
+    max-width: 300px; /* Adjust image size */
     height: auto;
 }
 
