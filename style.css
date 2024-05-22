@@ -5,7 +5,14 @@ body {
     margin: 0;
     padding: 0;
 }
-
+headernav {
+    background-color: #010001; /* Black */
+    color: #F7EFE6; /* Light Cream */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 nav {
     background-color: #010001; /* Black */
     color: #F7EFE6; /* Light Cream */
@@ -90,6 +97,10 @@ button {
     cursor: pointer;
 }
 
+
+button:hover {
+    background-color: #0C0808; /* Deep Black */
+}
 button:hover {
     background-color: #0C0808; /* Deep Black */
 }
