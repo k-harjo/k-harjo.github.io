@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', serif;
     background-color: #f0d9c7; /* Sand */
     color: #333;
     margin: 0;
@@ -26,6 +26,13 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+.hero-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }
 
 section {
