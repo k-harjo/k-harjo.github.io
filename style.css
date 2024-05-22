@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6f0;
+    background-color: #f0d9c7; /* Sand */
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffb3d9;
+    background-color: #ae4e38; /* Terra cotta */
     color: white;
     padding: 20px;
     text-align: center;
@@ -33,11 +33,32 @@ section {
 }
 
 footer {
-    background-color: #ffb3d9;
+    background-color: #ae4e38; /* Terra cotta */
     color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Additional styling with the color palette */
+h1, h2 {
+    color: #db8065; /* Coral */
+}
+
+a {
+    color: #d79330; /* Gold */
+}
+
+button {
+    background-color: #f19888; /* Pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #db8065; /* Coral */
 }
