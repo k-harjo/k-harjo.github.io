@@ -1,14 +1,14 @@
 body {
     font-family: 'Times New Roman', serif;
-    background-color: #f0d9c7; /* Sand */
-    color: #333;
+    background-color: #F7EFE6; /* Light Cream */
+    color: #2B2726; /* Dark Gray */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ae4e38; /* Terra cotta */
-    color: white;
+    background-color: #010001; /* Black */
+    color: #F7EFE6; /* Light Cream */
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #F7EFE6; /* Light Cream */
     text-decoration: none;
 }
 
@@ -40,8 +40,8 @@ section {
 }
 
 footer {
-    background-color: #ae4e38; /* Terra cotta */
-    color: white;
+    background-color: #010001; /* Black */
+    color: #F7EFE6; /* Light Cream */
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -51,21 +51,21 @@ footer {
 
 /* Additional styling with the color palette */
 h1, h2 {
-    color: #db8065; /* Coral */
+    color: #DDB3AB; /* Soft Pink */
 }
 
 a {
-    color: #d79330; /* Gold */
+    color: #DDB3AB; /* Soft Pink */
 }
 
 button {
-    background-color: #f19888; /* Pink */
-    color: white;
+    background-color: #2B2726; /* Dark Gray */
+    color: #F7EFE6; /* Light Cream */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #db8065; /* Coral */
+    background-color: #0C0808; /* Deep Black */
 }
