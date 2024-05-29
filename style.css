@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +18,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -45,42 +52,23 @@ nav ul li a {
     font-weight: bold;
 }
 
-main {
-    padding: 20px;
-}
-home {
-    font-family: 'Montserrat', sans-serif;
-    background: url('image/home_bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-
-    color: #dcccc5; /* Dark Gray */
-    margin: 0;
-    padding: 0;
-}
-about {
-    font-family: 'Montserrat', sans-serif;
-    background: url('image/about_bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #dcccc5; /* Dark Gray */
-    margin: 0;
-    padding: 0;
-}
-home, about {
-    font-family: 'Montserrat', sans-serif;
-    background-size: cover;
-    color: #2B2726; /* Dark Gray */
-    margin: 0;
-    padding: 0;
+section {
+    padding: 100px 20px 20px 20px; /* Add padding to avoid overlap with fixed nav */
+    min-height: 100vh; /* Ensure sections take up full viewport height */
 }
 
-.home-background, .about-background {
+div {
+    padding: 100px 20px; /* Adjust padding to accommodate fixed nav */
+}
+
+.home-background, .about-background, .skills-background, .projects-background, .work-background, .contact-background {
     position: relative;
     width: 100%;
     height: auto;
     overflow: hidden;
 }
 
-.home-bg-image, .about-bg-image {
+.home-bg-image, .about-bg-image, .skills-bg-image, .projects-bg-image, .work-bg-image, .contact-bg-image {
     width: 100%;
     height: auto;
     display: block;
